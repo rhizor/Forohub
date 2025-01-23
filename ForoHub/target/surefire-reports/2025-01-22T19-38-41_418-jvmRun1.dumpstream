@@ -1,0 +1,15 @@
+# Created at 2025-01-22T19:38:41.739
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '#'.
+
+# Created at 2025-01-22T19:38:41.741
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '# There is insufficient memory for the Java Runtime Environment to continue.'.
+
+# Created at 2025-01-22T19:38:41.742
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '# Native memory allocation (mmap) failed to map 199229440 bytes. Error detail: G1 virtual space'.
+
+# Created at 2025-01-22T19:38:41.744
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '# An error report file with more information is saved as:'.
+
+# Created at 2025-01-22T19:38:41.853
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '# C:\Users\Kurumi\Desktop\ForoHub\hs_err_pid5712.log'.
+
