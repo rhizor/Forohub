@@ -49,14 +49,14 @@ Asegúrate de tener una instancia de MySQL en ejecución y crea una base de dato
 -mvn clean install
 
 ## Ejecutar la Aplicación
-- abre la terminal detu IDE
+- abre la terminal de tu IDE
 - mvn spring-boot:run
 La aplicación estará disponible en http://localhost:8080
 
 ## Estado Actual del Proyecto
 
-- Actualmente están implementadas todas las funcionalidades, sin embargo, hasta el momento solo se ha podido verificar la funcionalidad registrar el usuario. Al intentar hacer login, se produce un error de StackOverflowError. Este problema se estará corrigiendo en el transcurso de los días para terminar de verificar las demás funcionalidades que se requieren despues del login.
-
+- Actualmente están implementadas todas las funcionalidades, sin embargo, hasta el momento solo se ha podido verificar la funcionalidad registrar y loguear con el usuario haciendo uso del token, crear, buscar, actualizar y borrar un topico. queda pendiente busqueda del usuario por id. Este problema se estará corrigiendo en el transcurso de los días.
+  
 ## Endpoints Principales
 ### Autenticación
 
@@ -90,6 +90,24 @@ curl -X POST http://localhost:8080/api/topics -H "Content-Type: application/json
   "titulo": "Nuevo Tópico",
   "contenido": "Contenido del tópico"
 }'
+
+## ScreenShot
+![Screenshot 2025-01-22 at 17-55-00 Swagger UI](https://github.com/user-attachments/assets/a6f6ffcc-c79a-4ac5-ac54-0b67ff8860f1)
+
+![imagen](https://github.com/user-attachments/assets/f5a75274-5e9e-4a3f-8a8a-30e6d078b8de)
+
+![imagen](https://github.com/user-attachments/assets/1381873a-3d9f-401c-b683-a1f5ea7fb1fa)
+
+![imagen](https://github.com/user-attachments/assets/37955bb4-0c8a-41bf-bfa2-de58d417d771)
+
+![imagen](https://github.com/user-attachments/assets/3d091831-a4f0-4ebd-9528-f1a46f687d02)
+
+
+
+
+
+
+
 
 ## Contribuir
 
